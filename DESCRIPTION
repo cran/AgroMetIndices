@@ -1,0 +1,45 @@
+Package: AgroMetIndices
+Title: Agrometeorological Indices for Daily, Monthly, and Seasonal Time
+        Scales
+Version: 0.1.0
+Authors@R: c(
+    person("RN", "Singh",
+           role = "aut"),
+    person("Sonam", "Sah",
+           role = c("aut", "cre"),
+           email = "sonamnarayan.icar@gmail.com"),
+    person("Santosha", "Rathod",
+           role = "aut"),
+    person("Prabhat", "Kumar",
+           role = "aut"),
+    person("Sudhir Kumar", "Mishra",
+           role = "aut"),
+    person("Gaurav", "Chaturvedi",
+           role = "aut")
+    )
+Description: Provides methods for calculating agrometeorological indices from
+    daily weather data at daily, monthly, and user-defined seasonal time
+    scales. The package includes temperature, rainfall, growing degree days,
+    heat and cold stress, wet and dry spells, extreme rainfall, and seasonal
+    completeness indices, along with functions for meteorological data quality
+    assessment and crop-season definition. For method details see
+    <doi:10.1002/wcc.147> and <doi:10.1038/s41598-026-55293-3>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.0
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-09-24 09:38:24 UTC; Dr. Santosh Rathod
+Author: RN Singh [aut],
+  Sonam Sah [aut, cre],
+  Santosha Rathod [aut],
+  Prabhat Kumar [aut],
+  Sudhir Kumar Mishra [aut],
+  Gaurav Chaturvedi [aut]
+Maintainer: Sonam Sah <sonamnarayan.icar@gmail.com>
+Depends: R (>= 3.5.0)
+RoxygenNote: 7.3.3
+Repository: CRAN
+Date/Publication: 2026-10-05 16:10:19 UTC
